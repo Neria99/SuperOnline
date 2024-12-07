@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:textSize="30dp"
+        android:id="@+id/edNewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:text="Enter name" />
+
+    <EditText
+        android:textSize="30dp"
+        android:id="@+id/edNewPrice"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter price" />
+
+    <EditText
+        android:textSize="30dp"
+        android:id="@+id/edNewType"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter type" />
+
+    <EditText
+        android:textSize="30dp"
+        android:id="@+id/edNewLink"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter link" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+        <Button
+            android:id="@+id/btEnter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add item" />
+
+        <Button
+            android:id="@+id/btBackAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Back" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

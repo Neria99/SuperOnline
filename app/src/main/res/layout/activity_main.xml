@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/btwelcome"
+        android:layout_gravity="center"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:background="@null"
+        android:text="ברוכים הבאים " />
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:srcCompat="@drawable/super2" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btNext"-->
+<!--        android:layout_width="145dp"-->
+<!--        android:layout_height="135dp"-->
+<!--        android:layout_marginTop="90dp"-->
+<!--        android:drawableBottom="@drawable/wagon2"-->
+<!--        android:text="SHOP:" />-->
+
+    <ImageButton
+        android:id="@+id/imageNext"
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="40dp"
+        app:srcCompat="@drawable/wagon_new" />
+
+    <Button
+        android:id="@+id/btAdmin"
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin login" />
+
+
+</LinearLayout>
